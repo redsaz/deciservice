@@ -19,14 +19,6 @@
             <param-value>com.redsaz.deciservice.view.DeciserviceApplication</param-value>
         </init-param>
     </servlet>
-    <servlet>
-        <servlet-name>default</servlet-name>
-        <servlet-class>io.undertow.servlet.handlers.DefaultServlet</servlet-class>
-        <init-param>
-            <param-name>directory-listing</param-name>
-            <param-value>false</param-value>
-        </init-param>
-    </servlet>
     <context-param>
         <param-name>resteasy.servlet.mapping.prefix</param-name>
         <param-value>/</param-value>
